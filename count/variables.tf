@@ -3,11 +3,11 @@ variable "instances" {
 }
 
 variable "zone_id" {
-    default = "Z021448929NMXW4P65UQE"
+    default = "Z0492764104Y9ZBR2TEP4"
 }
 
 variable "domain_name" {
-    default = "daws82s.online"
+    default = "daws82s.site"
 }
 
 variable "common_tags" {
