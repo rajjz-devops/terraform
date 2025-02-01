@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "82s-tf-remote-state"
+    bucket = "daws82s-tf-remote-state"
     key    = "expense-backend-infra" # you should have unique keys with in the bucket, same key should not be used in other repos or tf projects
     region = "us-east-1"
-    dynamodb_table = "82s-state-locking"
+    dynamodb_table = "daws82s-state-locking"
   }
 }
 
